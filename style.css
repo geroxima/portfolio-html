@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #404040;
+}
+
+header {
+    background-color: #404040;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+}
+
+.tarjeta {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #404040;
+    border-width: 1px;
+    border-style: solid;
+    width: 50%;
+    padding: 25px;
+    line-height: 20px;
+}
+
+#habilidades ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+#habilidades ul li {
+    border-color: #7a7a7a;
+    border-width: .5px;
+    border-style: solid;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    gap: 15px
+}
+
+
+#contact form input{
+    padding: 10px;
+}
+
+#contact form textarea{
+    padding: 10px;
+}
+
+#contact form button{
+    background-color: #404040;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
